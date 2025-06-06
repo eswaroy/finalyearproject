@@ -1057,7 +1057,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--train', action='store_true', help='Train the model directly without launching UI')
     parser.add_argument('--generate', type=int, help='Generate specified number of synthetic records')
-    parser.add_argument('--time-series-path', type=str, default="cleaned_merged_data.csv", help='Path to time-series data')
+    parser.add_argument('--time-series-path', type=str, default=r"C:\Users\Asus\Downloads\syn\physionet_output\cleaned_tabular_data.csv", help='Path to time-series data')
     parser.add_argument('--tabular-path', type=str, default=r"C:\Users\Asus\Downloads\syn\physionet_output\cleaned_tabular_data.csv", help='Path to tabular data')
     args = parser.parse_args()
 
